@@ -1,0 +1,79 @@
+.text {
+    color: #e2e0df;
+}
+
+.background {
+    background-color: #191615;
+}
+
+.primary {
+    color: #ADCCBB;
+}
+
+.secondary {
+    color: #404B68;
+}
+
+.accent {
+    color: #f1201f;
+}
+
+#index {
+    background-image: url(Media/1385850.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#airsoft{
+    background-image: url(Media/magicpattern-mesh-gradient-1710783340168.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.topnav a:hover{
+    color: #404B68;
+}
+
+.topnav a img{
+    height: 1.5em;
+    transform: scaleX(-1);
+}
+
+.motto {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    padding: 30px;
+    color: #e2e0df;
+    background-color: rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0px 0px 294px 153px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 294px 153px rgb(0, 0, 0);
+    box-shadow: 0px 0px 294px 153px rgb(0, 0, 0);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p{
+    margin: 10px;
+}
